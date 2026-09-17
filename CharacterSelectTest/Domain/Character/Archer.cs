@@ -14,4 +14,12 @@ public sealed class Archer : Entity.Character
         Crit_rate = 15;
         Crit_DMG = 100;
     }
+    public double Attak()
+    {
+        return (Strength + Intelligence) * 2;
+    }
+    public string SpecialAbility()
+    {
+        return "Archer bardges enemies with arrows ";
+    }
 }

@@ -15,4 +15,13 @@ public sealed class Warrior : Entity.Character
         Crit_rate = 50;
         Crit_DMG = 30;
     }
+
+    public double Attak()
+    {
+        return Math.Round((Strength + Health) * 1.5, 1);
+    }
+    public string SpecialAbility()
+    {
+        return "After landing a critical hit boots his agility by 10 %";
+    }
 }

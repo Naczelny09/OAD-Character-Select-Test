@@ -14,4 +14,12 @@ public sealed class Mage : Entity.Character
         Crit_rate = 100;
         Crit_DMG = 10;
     }
+    public double Attak()
+    {
+        return (Intelligence + Crit_rate)*2;
+    }
+    public string SpecialAbility()
+    {
+        return "Mage boosts other allies Crit_Rate";
+    }
 }

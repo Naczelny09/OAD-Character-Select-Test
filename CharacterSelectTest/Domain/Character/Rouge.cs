@@ -14,4 +14,12 @@ public sealed class Rogue : Entity.Character
         Crit_rate = 20;
         Crit_DMG = 100;
     }
+    public double Attak()
+    {
+        return Math.Round((Agility + Intelligence) * 1.2, 1);
+    }
+    public string SpecialAbility()
+    {
+        return "Rouge steals some of the enemies health ";
+    }
 }

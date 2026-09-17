@@ -11,7 +11,16 @@ public sealed class Summoner : Entity.Character
         Strength = 2;
         Intelligence = 15;
         Agility = 8;
-        Crit_rate = 01;
+        Crit_rate = 15;
         Crit_DMG = 100;
+    }
+
+    public double Attak()
+    {
+        return (Strength + Intelligence)* 1.2
+    }
+    public string SpecialAbility()
+    {
+        return "Summoner summons 5 bats that attacks enemies";
     }
 }

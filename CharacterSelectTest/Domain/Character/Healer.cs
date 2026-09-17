@@ -14,4 +14,12 @@ public sealed class Healer : Entity.Character
         Crit_rate = 00;
         Crit_DMG = 00;
     }
+    public double Attak()
+    {
+        return Math.Round((Health + Intelligence)*1.5 , 1);
+    }
+    public string SpecialAbility()
+    {
+        return "Healer heals your team for 50% his own health";
+    }
 }
