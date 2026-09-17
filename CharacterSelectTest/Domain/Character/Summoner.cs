@@ -11,5 +11,7 @@ public sealed class Summoner : Entity.Character
         Strength = 2;
         Intelligence = 15;
         Agility = 8;
+        Crit_rate = 01;
+        Crit_DMG = 100;
     }
 }

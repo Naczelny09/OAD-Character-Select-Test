@@ -11,6 +11,7 @@ public sealed class Archer : Entity.Character
         Strength = 5;
         Intelligence = 20;
         Agility = 7;
-        crit_rate = 20;
+        Crit_rate = 15;
+        Crit_DMG = 100;
     }
 }

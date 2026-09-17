@@ -1,5 +1,6 @@
 using CharacterSelectTest.Application;
 using CharacterSelectTest.Domain.Enum;
+using System.Runtime.ConstrainedExecution;
 
 namespace CharacterSelectTest.Domain.Character;
 
@@ -11,5 +12,7 @@ public sealed class Warrior : Entity.Character
         Strength = 14;
         Intelligence = 6;
         Agility = 8;
+        Crit_rate = 50;
+        Crit_DMG = 30;
     }
 }

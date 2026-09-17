@@ -11,5 +11,7 @@ public sealed class Mage : Entity.Character
         Strength = 4;
         Intelligence = 16;
         Agility = 10;
+        Crit_rate = 100;
+        Crit_DMG = 10;
     }
 }

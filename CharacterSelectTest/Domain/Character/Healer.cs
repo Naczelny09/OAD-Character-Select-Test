@@ -11,5 +11,7 @@ public sealed class Healer : Entity.Character
         Strength = 1;
         Intelligence = 25;
         Agility = 5;
+        Crit_rate = 00;
+        Crit_DMG = 00;
     }
 }
