@@ -17,7 +17,7 @@ public sealed class Summoner : Entity.Character
 
     public double Attak()
     {
-        return (Strength + Intelligence)* 1.2
+        return (Strength + Intelligence) * 1.2;
     }
     public string SpecialAbility()
     {
