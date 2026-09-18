@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CharacterSelectTest.Domain.Character;
 
-namespace CharacterSelectTest.Tests
+namespace CharacterSelectTest.Tests.Domain.Characters
 {
     [TestClass]
     public class HealerTests
@@ -32,7 +32,7 @@ namespace CharacterSelectTest.Tests
         {
             var healer = new Healer("Soraka");
 
-            double actualAttack = healer.Attak();
+            double actualAttack = healer.Attack();
 
             Assert.AreEqual(262.5, actualAttack);
         }

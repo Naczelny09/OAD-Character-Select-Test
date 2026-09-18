@@ -14,9 +14,9 @@ public sealed class Mage : Entity.Character
         Crit_rate = 100;
         Crit_DMG = 10;
     }
-    public double Attak()
+    public int Attack()
     {
-        return (Intelligence + Crit_rate)*2;
+        return Intelligence * 3;
     }
     public string SpecialAbility()
     {

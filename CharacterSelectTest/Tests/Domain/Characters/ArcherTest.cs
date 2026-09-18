@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CharacterSelectTest.Domain.Character;
 
-namespace CharacterSelectTest.Tests
+namespace CharacterSelectTest.Tests.Domain.Characters
 {
     [TestClass]
     public class ArcherTests
@@ -39,7 +39,7 @@ namespace CharacterSelectTest.Tests
         {
             var archer = new Archer("Legolas");
 
-            double actualAttack = archer.Attak();
+            double actualAttack = archer.Attack();
 
             Assert.AreEqual(50.0, actualAttack);
         }

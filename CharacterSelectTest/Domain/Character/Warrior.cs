@@ -16,9 +16,9 @@ public sealed class Warrior : Entity.Character
         Crit_DMG = 30;
     }
 
-    public double Attak()
+    public int Attack()
     {
-        return Math.Round((Strength + Health) * 1.5, 1);
+        return Strength * 3;
     }
     public string SpecialAbility()
     {

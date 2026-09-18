@@ -14,9 +14,9 @@ public sealed class Healer : Entity.Character
         Crit_rate = 00;
         Crit_DMG = 00;
     }
-    public double Attak()
+    public int Attack()
     {
-        return Math.Round((Health + Intelligence)*1.5 , 1);
+        return Health * 3;
     }
     public string SpecialAbility()
     {

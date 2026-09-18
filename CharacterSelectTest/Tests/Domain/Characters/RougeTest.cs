@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CharacterSelectTest.Domain.Character;
 
-namespace CharacterSelectTest.Tests
+namespace CharacterSelectTest.Tests.Domain.Characters
 {
     [TestClass]
     public class RogueTests
@@ -32,7 +32,7 @@ namespace CharacterSelectTest.Tests
         {
             var rogue = new Rogue("Zed");
 
-            double actualAttack = rogue.Attak();
+            double actualAttack = rogue.Attack();
 
             Assert.AreEqual(27.6, actualAttack);
         }

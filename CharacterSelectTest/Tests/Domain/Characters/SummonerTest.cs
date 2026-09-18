@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CharacterSelectTest.Domain.Character;
 
-namespace CharacterSelectTest.Tests
+namespace CharacterSelectTest.Tests.Domain.Characters
 {
     [TestClass]
     public class SummonerTests
@@ -32,7 +32,7 @@ namespace CharacterSelectTest.Tests
         {
             var summoner = new Summoner("Yorick");
 
-            double actualAttack = summoner.Attak();
+            double actualAttack = summoner.Attack();
 
             Assert.AreEqual(20.4, actualAttack);
         }
@@ -48,4 +48,4 @@ namespace CharacterSelectTest.Tests
             Assert.AreEqual(expectedMessage, actualMessage);
         }
     }
-}s
+};

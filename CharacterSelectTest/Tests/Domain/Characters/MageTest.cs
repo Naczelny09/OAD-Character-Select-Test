@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CharacterSelectTest.Domain.Character;
 
-namespace CharacterSelectTest.Tests
+namespace CharacterSelectTest.Tests.Domain.Characters
 {
     [TestClass]
     public class MageTests
@@ -32,7 +32,7 @@ namespace CharacterSelectTest.Tests
         {
             var mage = new Mage("Ryze");
 
-            double actualAttack = mage.Attak();
+            double actualAttack = mage.Attack();
 
             Assert.AreEqual(232, actualAttack);
         }

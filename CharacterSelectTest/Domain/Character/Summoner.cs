@@ -15,9 +15,9 @@ public sealed class Summoner : Entity.Character
         Crit_DMG = 100;
     }
 
-    public double Attak()
+    public int Attack()
     {
-        return (Strength + Intelligence) * 1.2;
+        return Crit_rate * 3;
     }
     public string SpecialAbility()
     {
