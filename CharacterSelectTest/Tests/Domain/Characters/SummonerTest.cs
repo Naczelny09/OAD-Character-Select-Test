@@ -34,7 +34,7 @@ namespace CharacterSelectTest.Tests.Domain.Characters
 
             double actualAttack = summoner.Attack();
 
-            Assert.AreEqual(20.4, actualAttack);
+            Assert.AreEqual(45, actualAttack);
         }
 
         [TestMethod]

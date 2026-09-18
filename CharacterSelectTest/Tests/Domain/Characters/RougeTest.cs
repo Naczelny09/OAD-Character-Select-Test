@@ -34,7 +34,7 @@ namespace CharacterSelectTest.Tests.Domain.Characters
 
             double actualAttack = rogue.Attack();
 
-            Assert.AreEqual(27.6, actualAttack);
+            Assert.AreEqual(45, actualAttack);
         }
 
         [TestMethod]

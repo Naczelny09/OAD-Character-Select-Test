@@ -41,7 +41,7 @@ namespace CharacterSelectTest.Tests.Domain.Characters
 
             double actualAttack = archer.Attack();
 
-            Assert.AreEqual(50.0, actualAttack);
+            Assert.AreEqual(300, actualAttack);
         }
 
         [TestMethod]

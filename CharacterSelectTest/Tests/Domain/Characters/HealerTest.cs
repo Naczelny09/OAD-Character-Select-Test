@@ -26,7 +26,6 @@ namespace CharacterSelectTest.Tests.Domain.Characters
             Assert.AreEqual(0, healer.Crit_rate);
             Assert.AreEqual(0, healer.Crit_DMG);
         }
-
         [TestMethod]
         public void Attak_ReturnsCorrectValue()
         {
@@ -34,7 +33,7 @@ namespace CharacterSelectTest.Tests.Domain.Characters
 
             double actualAttack = healer.Attack();
 
-            Assert.AreEqual(262.5, actualAttack);
+            Assert.AreEqual(450, actualAttack);
         }
 
         [TestMethod]

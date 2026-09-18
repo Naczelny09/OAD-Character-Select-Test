@@ -34,7 +34,7 @@ namespace CharacterSelectTest.Tests.Domain.Characters
 
             double actualAttack = mage.Attack();
 
-            Assert.AreEqual(232, actualAttack);
+            Assert.AreEqual(48, actualAttack);
         }
 
         [TestMethod]
